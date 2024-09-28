@@ -10,6 +10,7 @@ set( CMAKE_BUILD_TYPE "Debug" )
 # 添加一个可执行程序
 # 语法：add_executable( 程序名 源代码文件 ）
 add_executable( git_test5 git_test5.cpp )
+add_executable( git_test5_1 git_test5_1.cpp )
 
 # 添加一个库
 # add_library( hello libHelloSLAM.cpp )

@@ -1,3 +1,4 @@
 /home/jt/Git_demo/git_test5/build/CMakeFiles/rebuild_cache.dir
 /home/jt/Git_demo/git_test5/build/CMakeFiles/edit_cache.dir
+/home/jt/Git_demo/git_test5/build/CMakeFiles/git_test5_1.dir
 /home/jt/Git_demo/git_test5/build/CMakeFiles/git_test5.dir
