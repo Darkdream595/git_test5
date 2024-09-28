@@ -111,6 +111,19 @@ depend:
 .PHONY : depend
 
 #=============================================================================
+# Target rules for targets named git_test5_3
+
+# Build rule for target.
+git_test5_3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 git_test5_3
+.PHONY : git_test5_3
+
+# fast build rule for target.
+git_test5_3/fast:
+	$(MAKE) -f CMakeFiles/git_test5_3.dir/build.make CMakeFiles/git_test5_3.dir/build
+.PHONY : git_test5_3/fast
+
+#=============================================================================
 # Target rules for targets named git_test5_1
 
 # Build rule for target.
@@ -190,6 +203,33 @@ git_test5_1.cpp.s:
 	$(MAKE) -f CMakeFiles/git_test5_1.dir/build.make CMakeFiles/git_test5_1.dir/git_test5_1.cpp.s
 .PHONY : git_test5_1.cpp.s
 
+git_test5_3.o: git_test5_3.cpp.o
+
+.PHONY : git_test5_3.o
+
+# target to build an object file
+git_test5_3.cpp.o:
+	$(MAKE) -f CMakeFiles/git_test5_3.dir/build.make CMakeFiles/git_test5_3.dir/git_test5_3.cpp.o
+.PHONY : git_test5_3.cpp.o
+
+git_test5_3.i: git_test5_3.cpp.i
+
+.PHONY : git_test5_3.i
+
+# target to preprocess a source file
+git_test5_3.cpp.i:
+	$(MAKE) -f CMakeFiles/git_test5_3.dir/build.make CMakeFiles/git_test5_3.dir/git_test5_3.cpp.i
+.PHONY : git_test5_3.cpp.i
+
+git_test5_3.s: git_test5_3.cpp.s
+
+.PHONY : git_test5_3.s
+
+# target to generate assembly for a file
+git_test5_3.cpp.s:
+	$(MAKE) -f CMakeFiles/git_test5_3.dir/build.make CMakeFiles/git_test5_3.dir/git_test5_3.cpp.s
+.PHONY : git_test5_3.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -198,6 +238,7 @@ help:
 	@echo "... depend"
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
+	@echo "... git_test5_3"
 	@echo "... git_test5_1"
 	@echo "... git_test5"
 	@echo "... git_test5.o"
@@ -206,6 +247,9 @@ help:
 	@echo "... git_test5_1.o"
 	@echo "... git_test5_1.i"
 	@echo "... git_test5_1.s"
+	@echo "... git_test5_3.o"
+	@echo "... git_test5_3.i"
+	@echo "... git_test5_3.s"
 .PHONY : help
 
 
