@@ -53,6 +53,7 @@ CMAKE_BINARY_DIR = /home/jt/Git_demo/git_test5/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
+all: CMakeFiles/git_test5_3.dir/all
 all: CMakeFiles/git_test5_1.dir/all
 all: CMakeFiles/git_test5.dir/all
 
@@ -64,10 +65,38 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
+clean: CMakeFiles/git_test5_3.dir/clean
 clean: CMakeFiles/git_test5_1.dir/clean
 clean: CMakeFiles/git_test5.dir/clean
 
 .PHONY : clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/git_test5_3.dir
+
+# All Build rule for target.
+CMakeFiles/git_test5_3.dir/all:
+	$(MAKE) -f CMakeFiles/git_test5_3.dir/build.make CMakeFiles/git_test5_3.dir/depend
+	$(MAKE) -f CMakeFiles/git_test5_3.dir/build.make CMakeFiles/git_test5_3.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/jt/Git_demo/git_test5/build/CMakeFiles --progress-num=5,6 "Built target git_test5_3"
+.PHONY : CMakeFiles/git_test5_3.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/git_test5_3.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jt/Git_demo/git_test5/build/CMakeFiles 2
+	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/git_test5_3.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/jt/Git_demo/git_test5/build/CMakeFiles 0
+.PHONY : CMakeFiles/git_test5_3.dir/rule
+
+# Convenience name for target.
+git_test5_3: CMakeFiles/git_test5_3.dir/rule
+
+.PHONY : git_test5_3
+
+# clean rule for target.
+CMakeFiles/git_test5_3.dir/clean:
+	$(MAKE) -f CMakeFiles/git_test5_3.dir/build.make CMakeFiles/git_test5_3.dir/clean
+.PHONY : CMakeFiles/git_test5_3.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/git_test5_1.dir
